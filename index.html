@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Weather & AQI Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Live Weather & AQI Dashboard</h1>
+        
+        <div class="search-box">
+            <input type="text" id="cityInput" value="Ahmedabad" placeholder="Enter City Name">
+            <button onclick="fetchData()">Search</button>
+        </div>
+        
+        <!-- Weather and AQI Cards -->
+        <div class="widgets">
+            <div class="card weather-card">
+                <h2>Weather</h2>
+                <p>Temperature: <span id="temp">--</span> °C</p>
+                <p>Wind Speed: <span id="wind">--</span> km/h</p>
+            </div>
+            <div class="card aqi-card">
+                <h2>Air Quality</h2>
+                <p>AQI Index: <span id="aqi">--</span></p>
+                <p>PM2.5: <span id="pm25">--</span> µg/m³</p>
+            </div>
+        </div>
+        
+        <!-- Group Members Footer -->
+        <div class="team techbulls">
+            <p><strong>BCA 3rd Sem WDP Project</strong></p>
+            <p>Developed by: Patel Ganesh, Sharma Shivam, Saumya Jain</p>
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

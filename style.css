@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e2e8f0;
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+.dashboard {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+.search-box {
+    margin-bottom: 25px;
+}
+input {
+    padding: 12px;
+    width: 65%;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 16px;
+}
+button {
+    padding: 12px 24px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #2563eb;
+}
+.widgets {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.card {
+    background: #f8fafc;
+    padding: 20px;
+    border-radius: 8px;
+    width: 48%;
+    border: 1px solid #e2e8f0;
+}
+.team-footer {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #cbd5e1;
+    color: #475569;
+    font-size: 14px;
+}
+.team-footer p {
+    margin: 5px 0;
+}
